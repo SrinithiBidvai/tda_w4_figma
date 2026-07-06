@@ -1,0 +1,151 @@
+body{
+    background: linear-gradient(rgba(47, 24, 147, 0.5), rgba(47, 24, 147, 0.5)),url("contact.jpg");
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#body{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    gap: 100px;
+}
+#text{
+    color: white ;
+    margin-top: 150px;
+}
+#text h1{
+    font-size: 42px;
+    width: 410px;
+    height: 52px;
+    font-weight: 700;
+}
+#text h2{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    width: 400px;
+    margin-bottom: 50px;
+}
+.contacts{
+    display: flex;
+    margin-bottom: 40px;
+}
+.contacts p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 241px;
+     margin: 0px;
+     margin-left: 10px;
+
+}
+.contacts i{
+    font-size: 18px;
+    margin-top: 5px;
+}
+input , select{
+    border-radius: 100px;
+    border: 2px solid #EBEAED;
+    height: 50px;
+    padding-left: 10px;
+}
+input{
+    font-size: 18px;
+}
+ 
+#info{
+    background-color: white;
+    border-radius: 10px;
+    width: 470px;
+    height: 570px;
+    margin-top: 100px;
+}
+#info p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #1E0E62;
+    line-height: 22px;
+}
+#top-details{
+    display: flex;
+    margin-top: -20px;
+}
+#name input{
+    width: 200px;
+}
+#name , #mail, #msg{
+    margin-left: 38px;
+    margin-top: 40px;
+}
+#budget{
+    margin-left: 30px;
+
+     margin-top: 45px;
+}
+#budget select{
+    width: 140px;
+    color: #1E0E62;
+    padding: 10px;
+    font-size: 18px;
+}
+#mail input{
+    width: 370px;
+}
+#msg textarea{
+    width: 370px;
+    height: 110px;
+    border: 2px solid #EBEAED;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#msg textarea:focus {
+    border: 2px solid #1E0E62;
+    outline: none;
+}
+
+#body input:focus , #body select:focus{  
+    border-color: #1E0E62;
+    outline: none;
+}
+
+#bottom button{
+    color: white;
+    background-color: #25DAC5;
+    border: none;
+    font-size: 18px;
+    width: 120px;
+    height: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+#bottom input{
+    accent-color: #25DAC5;
+    width: 18px;
+    height: 18px;
+}
+
+#bottom {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-left: 38px;
+    margin-right: 38px;
+    margin-top: 20px;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+#bottom label {
+    color: #15143973;
+    font-size: 16px;
+}
+
+

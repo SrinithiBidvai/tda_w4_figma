@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background: linear-gradient(rgba(47, 24, 147, 0.5), rgba(47, 24, 147, 0.5)),url("accountimg.jpg");
+    height: 770px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+     font-family: sans-serif;
+    
+}
+#body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#acc-content{
+    width: 369px;
+     color: white;
+     align-items: center;
+     margin-top: 50px;
+}
+#acc-content p{
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 20px;
+}
+#acc-content h3{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+}
+#account{
+    background-color: white;
+    width: 470px;
+    height: 550px;
+    margin-top: 100px;
+    border-radius:10px;
+    margin-left: 120px;
+}
+#signinOptions{
+    display: flex;
+}
+#signinOptions button{
+    width: 235px;
+    border-bottom: 3px solid ;
+    border-bottom-color: #EBEAED;
+    border-radius:2px ;
+    background: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+#signup button{
+    color:#1E0E62 ;
+    border-bottom-color: #1E0E62;
+}
+input{
+    height: 50px;
+    width: 330px;
+    border-radius: 100px;
+    border: 2px solid rgb(128,128,128,0.4);
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 70px;
+    padding-left: 15px;
+
+}
+#email{
+    margin-top: 70px;
+}
+#password{
+    margin-top: 28px;
+}
+button{
+    width: 330px;
+    height: 50px;
+    border-radius: 100px;
+     border: 2px solid rgb(128,128,128,0);
+    font-size: 18px;
+    padding: 0;
+    cursor: pointer;
+}
+#creation{
+    background-color: #25DAC5;
+    color: white;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+#twitter-login{
+    background-color: #1DA1F2;
+    color: white;
+    margin-left: 70px;
+}
+.divider {
+    display: flex;
+    align-items: center;
+    width: 330px;      /* Same width as your inputs/buttons */
+    margin: 30px 70px; /* Align with your form */
+    color: #B2B2B2;
+}
+.divider hr {
+    flex: 1;
+    border: none;
+    border-top: 1.5px solid #EBEAED;
+}
+
+.divider span {
+    margin: 0 15px;
+    font-size: 16px;
+    color: #B2B2B2;
+}
