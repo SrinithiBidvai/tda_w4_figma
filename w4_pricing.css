@@ -1,0 +1,90 @@
+body{
+    background: linear-gradient(rgba(47, 24, 147, 0.5), rgba(47, 24, 147, 0.5)),url("pricingimg.jpg");
+    height: 1050px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: sans-serif;
+}
+#heading{
+    width: 586px;
+    height: 146px;
+    justify-self: center;
+}
+h4{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    margin-top: -20px;
+    
+}
+h5{
+    font-size: 42px;
+    font-weight: 500;
+    text-align: center;
+}
+#plans{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+  
+    margin-top: 60px;
+}
+.prices{
+    border: 2px solid #ffffff66;
+    padding-left: 40px;
+    width: 350px;
+    height: 730px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.planName h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.planName h2{
+    font-size: 58px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 35px;
+
+}
+.av{
+    display: flex;
+    gap:15px;
+    align-items: center;
+    margin-bottom: -10px;
+}
+.av p{
+    font-size: 16px;
+}
+.av img{
+    width: 12px;
+    height: 8px;
+}
+.nav{
+    margin-left: 27px;
+    color: #ffffff8c;
+}
+.prices button{
+    width: 230px;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #ffffff8c;
+    color: white;
+    border-radius: 100px;
+    margin-top: 30px;
+    margin-left: 27px;
+}
+.prices button:hover{
+    background-color: #E93A7D;
+    cursor: pointer;
+    border-color: #E93A7D;
+}
