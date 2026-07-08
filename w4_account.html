@@ -15,33 +15,37 @@
         </div>
 
         <div id="account">
-            <div id="signinOptions">
+            <div id="before-signin">
+                <div id="signinOptions">
                 <div id="signup">
                     <a href=""><button>SIGN UP</button></a>
                 </div>
                 <div id="login">
                     <a href=""><button>LOGIN</button></a>
                 </div>
+                </div>
+                <div>
+                    <input type="text" placeholder="Your email" id="email">
+                </div>
+                <div>
+                    <input type="text" placeholder="Your password" id="password">
+                </div>
+                <div>
+                    <button id="creation" onclick="createAccount()">Create an Account</button>
+                </div>
+                <div class="divider">
+                    <hr>
+                    <span>or</span>
+                    <hr>
+                </div>
+                <div>
+                    <button id="twitter-login" onclick="twitterLogin()">Login via Twitter</button>
+                </div>
             </div>
-            <div>
-                 <input type="text" placeholder="Your email" id="email">
-            </div>
-            <div>
-                <input type="text" placeholder="Your password" id="password">
-            </div>
-            <div>
-                 <button id="creation">Create an Account</button>
-            </div>
-            <div class="divider">
-                <hr>
-                <span>or</span>
-                <hr>
-            </div>
-            <div>
-                <button id="twitter-login">Login via Twitter</button>
-            </div>
+            <p id="after-signin"></p>
+            
         </div>
     </div>
-    
+    <script src="w4.js"></script>
 </body>
 </html>

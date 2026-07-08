@@ -115,3 +115,12 @@ button{
     font-size: 16px;
     color: #B2B2B2;
 }
+
+#after-signin{
+    font-size: 40px;
+    padding: 35px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(19, 16, 54);
+}
