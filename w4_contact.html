@@ -38,56 +38,60 @@
             </div>
         </div>
         <div id="info">
-            <div id="top-details">
-                <div id="name">
+            <div id="contactInfo">
+                <div id="top-details">
+                    <div id="name">
+                        <div>
+                            <p>YOUR NAME</p>
+                        </div>
                     <div>
-                        <p>YOUR NAME</p>
+                            <input type="text" placeholder="First name">
                     </div>
-                   <div>
-                        <input type="text" placeholder="First name">
-                   </div>
+                    </div>
+                    <div id="budget">
+                        <div>
+                            <p>BUDGET</p>
+                        </div>
+                        <div>
+                            <select>
+                                <option>500$</option>
+                                <option>500-1000$</option>
+                                <option>1000-1500$</option>
+                                <option>1500-2000$</option>
+                                <option>above 2000$</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
-                 <div id="budget">
+                <div id="mail">
                     <div>
-                        <p>BUDGET</p>
+                        <p>INPUT FIELD</p>
                     </div>
-                   <div>
-                        <select>
-                            <option>500$</option>
-                            <option>500-1000$</option>
-                            <option>1000-1500$</option>
-                            <option>1500-2000$</option>
-                            <option>above 2000$</option>
-                        </select>
-                   </div>
+                    <div>
+                        <input type="text" placeholder="name@gmail.com">
+                    </div>
                 </div>
-            </div>
-            <div id="mail">
-                <div>
-                    <p>INPUT FIELD</p>
+                <div id="msg">
+                    <div>
+                        <p>YOUR MESSAGE</p>
+                    </div>
+                    <div >
+                        <textarea rows="4" cols="30" placeholder="Message"></textarea>
+                    </div>
                 </div>
-                <div>
-                    <input type="text" placeholder="name@gmail.com">
-                </div>
-            </div>
-            <div id="msg">
-                <div>
-                    <p>YOUR MESSAGE</p>
-                </div>
-                <div >
-                    <textarea rows="4" cols="30" placeholder="Message"></textarea>
-                </div>
-            </div>
-             <div id="bottom">
-                <div class="check">
-                    <input type="checkbox" id="copy">
-                    <label for="copy">Send me a copy</label>
-                </div>
+                <div id="bottom">
+                    <div class="check">
+                        <input type="checkbox" id="copy">
+                        <label for="copy">Send me a copy</label>
+                    </div>
 
-                <button>Send</button>
+                    <button onclick="keepTouch()">Send</button>
+                </div>
             </div>
+            <p id="after-send"></p>
         </div>
     </div>
+    <script src="w4.js"></script>
     
    
     
